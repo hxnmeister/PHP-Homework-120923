@@ -15,7 +15,7 @@
                 
     if(!empty($receivedText)):
         //Змінна $formatedText дозволить додати стилі до тексту за допомогою конкатенації рядків нижче
-        $formatedText = "<p style='font-family: {$fontFamily}; font-size: {$fontSize}; color: ".(in_array($fontColor, $colors) ? $fontColor : 'black')."; ";
+        $formatedText = "<p style='font-family: {$fontFamily}; font-size: {$fontSize}px; color: ".(in_array($fontColor, $colors) ? $fontColor : 'black')."; ";
         
         if(!empty($fontStyle)):
             foreach($fontStyle as $style):

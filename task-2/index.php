@@ -24,7 +24,7 @@
                     <br>
                     
                     <label for="size">Font Size:</label>
-                    <input type="number" name="fontsize" step="1" min="10" max="25" value="10" id="size">
+                    <input type="number" name="fontsize" step="1" min="10" max="50" value="10" id="size">
                     <br>
 
                     <input type="checkbox" name="fontstyle[]" value="bold" id="style-bold">
