@@ -1,0 +1,38 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form
+{
+    width: 15vw;
+    padding: 10px;
+    margin: 10px auto;
+    background-color:antiquewhite;
+    border: 3px ridge black;
+    border-radius: 10px;
+}
+textarea, select
+{
+    width: 15vw;
+}
+textarea, select, input[type="number"]
+{
+    margin-top: 5px;
+    display: block;
+}
+input[type="text"]
+{
+    width: 10vw;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+input[type="submit"]
+{
+    margin-left: 5vw;
+    padding: 2px 25px;
+    border-radius: 5px;
+}
